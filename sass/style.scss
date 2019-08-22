@@ -1,0 +1,18 @@
+@import 'cssReset';
+@import 'variables';
+@import 'mixins';
+@import 'images';
+@import 'nav';
+@import 'icons';
+@import 'paragraph';
+@import 'buttons';
+
+
+body{
+  background: $backColor;
+  color: $fontColor;
+}
+h1{
+  padding: $padding;
+  margin: 10*$margin + 30px;
+}

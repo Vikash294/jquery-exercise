@@ -1,0 +1,27 @@
+.morePara{
+  width:80%;
+  padding: 20px;
+  margin:auto;
+}
+.para11, .para21{
+  width: 48%;
+  float: left;
+  line-height: 30px;
+
+}
+.para11{
+  margin-right:50px;
+}
+.clearFix{
+  content: "";
+  clear:both;
+  display:table;
+}
+h2{
+  margin:20px 0px;
+}
+/* inheritance of style from .para11 */
+ul features{
+  @extend .para11;
+  margin-left: 210px;
+}
